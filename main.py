@@ -7,6 +7,11 @@ import pandas as pd
 
 load_dotenv()
 client = genai.Client()
+st.set_page_config(
+    page_title="Anuj App",
+    page_icon="🚀",  
+    layout="wide"
+)
 # st.title("🌍✈️AS Travel Assistant")
 st.markdown("""
 <style>

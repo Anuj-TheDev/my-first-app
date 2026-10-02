@@ -1,0 +1,5 @@
+streamlit
+google-gemini
+pandas
+requests
+python-dotenv
