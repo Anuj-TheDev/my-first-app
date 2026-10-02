@@ -5,7 +5,7 @@ import time
 import requests
 import pandas as pd
 
-
+load_dotenv()
 client = genai.Client()
 # st.title("🌍✈️AS Travel Assistant")
 st.markdown("""
